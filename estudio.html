@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Web</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── Navbar ── -->
+  <nav>
+    <a href="#" class="nav-logo">mi.web</a>
+    <input type="checkbox" id="nav-check" hidden />
+    <ul class="nav-links">
+      <li><a href="#" class="active">Inicio</a></li>
+      <li><a href="#">Sobre mí</a></li>
+      <li><a href="#">Servicios</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#" class="cta">Contacto</a></li>
+    </ul>
+    <label for="nav-check" class="nav-toggle" aria-label="Menú">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-badge">Evento del año</span>
+      <h1 class="hero-title">Vive la experiencia<br>que nunca olvidarás</h1>
+      <p class="hero-subtitle">Un evento único lleno de música, arte y cultura.<br>No te quedes sin tu lugar.</p>
+      <a href="#" class="hero-btn">Comprar ticket</a>
+    </div>
+  </section>
+
+  <!-- ── Tabla de proyectos ── -->
+  <section class="proyectos">
+    <h2 class="proyectos-titulo">Proyectos</h2>
+    <div class="tabla-wrapper">
+      <table class="tabla">
+        <thead>
+          <tr>
+            <th>Proyecto</th>
+            <th>Autor</th>
+            <th>Duración</th>
+            <th>Finalizado</th>
+            <th>Producto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>App de pagos</td>
+            <td>Laura Gómez</td>
+            <td>3 meses</td>
+            <td>12 ene 2025</td>
+            <td><a href="#" class="tabla-btn">Ver producto</a></td>
+          </tr>
+          <tr>
+            <td>Dashboard analytics</td>
+            <td>Carlos Ruiz</td>
+            <td>6 semanas</td>
+            <td>28 feb 2025</td>
+            <td><a href="#" class="tabla-btn">Ver producto</a></td>
+          </tr>
+          <tr>
+            <td>E-commerce moda</td>
+            <td>Sofía Herrera</td>
+            <td>5 meses</td>
+            <td>03 mar 2025</td>
+            <td><a href="#" class="tabla-btn">Ver producto</a></td>
+          </tr>
+          <tr>
+            <td>Portal educativo</td>
+            <td>Andrés Mora</td>
+            <td>4 meses</td>
+            <td>17 abr 2025</td>
+            <td><a href="#" class="tabla-btn">Ver producto</a></td>
+          </tr>
+          <tr>
+            <td>App de delivery</td>
+            <td>Valeria Ríos</td>
+            <td>2 meses</td>
+            <td>30 abr 2025</td>
+            <td><a href="#" class="tabla-btn">Ver producto</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ── Sobre la empresa ── -->
+  <section class="about">
+    <div class="about-img">
+      <img src="about.jpg" alt="Sobre nuestra empresa" />
+    </div>
+    <div class="about-text">
+      <h2>Sobre nuestra empresa</h2>
+      <p>Somos un equipo apasionado por crear experiencias digitales únicas. Desde 2018 ayudamos a empresas y emprendedores a construir su presencia en línea con diseño, tecnología y propósito.</p>
+      <ul>
+        <li>Ingredientes de calidad</li>
+        <li>Innovación constante</li>
+        <li>Talento comprometido</li>
+        <li>Sostenibilidad</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ── Multimedia ── -->
+  <section class="multimedia">
+    <h2>Multimedia</h2>
+    <div class="multimedia-grid">
+      <div class="fotos-grid">
+        <img src="foto1.jpg" alt="Foto 1" />
+        <img src="foto2.jpg" alt="Foto 2" />
+        <img src="foto3.jpg" alt="Foto 3" />
+        <img src="foto4.jpg" alt="Foto 4" />
+        <img src="foto5.jpg" alt="Foto 5" />
+        <img src="foto6.jpg" alt="Foto 6" />
+        <img src="foto7.jpg" alt="Foto 7" />
+        <img src="foto8.jpg" alt="Foto 8" />
+      </div>
+      <div class="video-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="Video del festival"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="footer-grid">
+
+      <div class="footer-col">
+        <h4>Síguenos</h4>
+        <div class="footer-redes">
+          <a href="#" aria-label="Instagram">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Sobre nosotros</h4>
+        <p>Creando experiencias digitales únicas con diseño, código y propósito desde 2018.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Términos de uso</a></li>
+          <li><a href="#">Privacidad</a></li>
+          <li><a href="#">Cookies</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Más info</h4>
+        <ul>
+          <li><a href="#">Preguntas frecuentes</a></li>
+          <li><a href="#">Prensa</a></li>
+          <li><a href="#">Vacantes</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 mi.web — Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
